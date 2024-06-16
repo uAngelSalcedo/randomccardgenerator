@@ -12,18 +12,35 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+  <body class="container-fluid" style="background-color: green; hig">
+    <a
+      href="https://www.4geeksacademy.com"
+      class=" d-flex justify-content-center mt-5 mb-5"
+      >4Geeks Academy</a
+    >
+    <div
+      class="d-flex-colum justify-content-between container-fluid m-auto rounded-2"
+      style="background-color: white; height: 300px; width: 165px;"
+    >
+      <div
+        id="card-header"
+        class="fs-1 mb-5 d-flex justify-content-start"
+      ></div>
+      <div
+        id="card-body"
+        class="fs-1 d-flex mt-5 mb-5 justify-content-center"
+      ></div>
+      <div
+        id="card-footer"
+        class="fs-1 mt-5 d-flex align-items-end flex-column"
+      ></div>
     </div>
+    <button
+      id="boton"
+      class="container-fluid d-flex justify-content-center mt-5"
+      style="width: 10%;"
+    >
+      nueva carta
+    </button>
   </body>
 </html>
